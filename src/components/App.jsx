@@ -1,3 +1,3 @@
 export const App = () => {
-  return <div>App</div>;
+  return <>React homework template</>;
 };
