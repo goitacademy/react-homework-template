@@ -32,29 +32,43 @@ npm install
 npm start
 ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Runs the app in the development mode. Open
+[http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will reload when you make changes. You may also see any lint errors in
+the console.
 
 ## Деплой
 
-Продакшен версия проекта будет автоматически собираться и деплоиться на GitHub
+Продакшн версия проекта будет автоматически собираться и деплоиться на GitHub
 Pages, в ветку `gh-pages`, каждый раз когда обновляется ветка `main`. Например,
 после прямого пуша или принятого пул-реквеста. Для этого необходимо в файле
-`package.json` отредактировать поле `homepage`, заменив `имя_пользователя` и
-`имя_репозитория` на свои.
+`package.json` отредактировать поле `homepage`, заменив `your_username` и
+`your_repo_name` на свои.
 
 ```json
-"homepage": "https://имя_пользователя.github.io/имя_репозитория"
+"homepage": "https://your_username.github.io/your_repo_name/"
 ```
 
 На всякий случай стоит зайти на GitHub в настройки репозитория (`Settings` >
-`Pages`) и убедиться что продакшен версии файлов раздаются из папки `/root`
-ветки `gh-pages`.
+`Pages`) и убедиться что продакшн версии файлов раздаются из папки `/root` ветки
+`gh-pages`.
 
 ![GitHub Pages settings](./gh-pages-settings.png)
+
+### Статус деплоя
+
+Статус деплоя крайнего коммита будет отображен возле его идентификатора.
+
+- Желтый цвет - выполняется сборка и деплой проекта.
+- Зеленый цвет - деплой завершился успешно.
+- Красный цвет - во время сборки или деплоя произошла ошибка.
+
+Более детальную информацию о статусе можно посмотреть кликнув по иконке.
+
+![Deployment status](./status.png)
+
+### Живая страница
 
 Через какое-то время живую страницу можно будет посмотреть по адресу указанному
 в отредактированном свойстве `homepage`, например
