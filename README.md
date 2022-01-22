@@ -1,7 +1,5 @@
 # react-homework-template
 
-React course homework project template
-
 ## Скрытые файлы
 
 Включите отображение скрытых файлов и папок в проводнике своей операционной
@@ -18,7 +16,7 @@ In the project directory, you can run next set of predefined scripts.
 
 ## Перед началом работы
 
-Один раз на проект установить все зависимости.
+Установить все базовые зависимости проекта.
 
 ```shell
 npm install
