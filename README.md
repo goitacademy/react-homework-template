@@ -54,7 +54,7 @@ Pages, в ветку `gh-pages`, каждый раз когда обновляе
 `Pages`) и убедиться что продакшн версии файлов раздаются из папки `/root` ветки
 `gh-pages`.
 
-![GitHub Pages settings](./gh-pages-settings.png)
+![GitHub Pages settings](./settings.png)
 
 ### Статус деплоя
 
