@@ -43,7 +43,7 @@
 `Pages`) и убедиться что продакшн версии файлов раздаются из папки `/root` ветки
 `gh-pages`.
 
-![GitHub Pages settings](./settings.png)
+![GitHub Pages settings](./repo-settings.png)
 
 ### Статус деплоя
 
