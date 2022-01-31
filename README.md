@@ -2,25 +2,25 @@
 
 Этот проект был создан при помощи
 [Create React App](https://github.com/facebook/create-react-app). Для знакомства
-и настройки дополнительных возможностей обратись к
-[документации](https://facebook.github.io/create-react-app/docs/getting-started).
+и настройки дополнительных возможностей
+[обратись к документации](https://facebook.github.io/create-react-app/docs/getting-started).
 
 ## Подготовка нового проекта
 
-- Убедись что на компьютере установлена LTS-версия
-  [Node.js](https://nodejs.org/en/)
-- Склонируй этот репозиторий или скачай его как архив
-- Измени имя папки с `react-homework-template` на имя своего проекта
-- Создай новый пустой репозиторий на GitHub
+- Убедись что на компьютере установлена LTS-версия Node.js.
+  [Скачай и установи](https://nodejs.org/en/) её если необходимо.
+- Склонируй этот репозиторий или скачай его как архив.
+- Измени имя папки с `react-homework-template` на имя своего проекта.
+- Создай новый пустой репозиторий на GitHub.
 - Открой проект в VSCode, запусти терминал и свяжи свой проект с
-  GitHub-репозиторием
+  GitHub-репозиторием.
   - Если проект был склонирован, то по
-    [этой инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url)
+    [этой инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url).
   - Если проект был скачан архивом, инициализируй Git командой `git init` и
     дальше по
-    [инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#adding-a-remote-repository)
-- Установи базовые зависимости проекта командой `npm install`
-- Запусти режим разработки, выполнив команду `npm start`
+    [инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#adding-a-remote-repository).
+- Установи базовые зависимости проекта командой `npm install`.
+- Запусти режим разработки, выполнив команду `npm start`.
 - Перейди в браузере по адресу [http://localhost:3000](http://localhost:3000).
   Эта страница будет автоматически перезагружаться после сохранения изменений в
   файлах проекта.
