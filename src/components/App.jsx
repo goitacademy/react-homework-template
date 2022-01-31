@@ -1,7 +1,3 @@
-import { Component } from 'react';
-
-console.log(a);
-
 export const App = () => {
   return (
     <div
