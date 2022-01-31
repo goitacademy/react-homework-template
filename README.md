@@ -7,23 +7,25 @@
 
 ## Подготовка нового проекта
 
-- Убедись что на компьютере установлена LTS-версия Node.js.
-  [Скачай и установи](https://nodejs.org/en/) её если необходимо.
-- Склонируй этот репозиторий или скачай его как архив.
-- Измени имя папки с `react-homework-template` на имя своего проекта.
-- Создай новый пустой репозиторий на GitHub.
-- Открой проект в VSCode, запусти терминал и свяжи свой проект с
-  GitHub-репозиторием.
-  - Если проект был склонирован, то по
-    [этой инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url).
-  - Если проект был скачан архивом, инициализируй Git командой `git init` и
-    дальше по
-    [инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#adding-a-remote-repository).
-- Установи базовые зависимости проекта командой `npm install`.
-- Запусти режим разработки, выполнив команду `npm start`.
-- Перейди в браузере по адресу [http://localhost:3000](http://localhost:3000).
-  Эта страница будет автоматически перезагружаться после сохранения изменений в
-  файлах проекта.
+1. Убедись что на компьютере установлена LTS-версия Node.js.
+   [Скачай и установи](https://nodejs.org/en/) её если необходимо.
+2. Склонируй этот репозиторий или скачай его как архив.
+3. Измени имя папки с `react-homework-template` на имя своего проекта.
+4. Создай новый пустой репозиторий на GitHub.
+5. Открой проект в VSCode, запусти терминал и свяжи свой проект с
+   GitHub-репозиторием.
+
+   - Если проект был склонирован, то по
+     [этой инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url).
+   - Если проект был скачан архивом, инициализируй Git командой `git init` и
+     дальше по
+     [инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#adding-a-remote-repository).
+
+6. Установи базовые зависимости проекта командой `npm install`.
+7. Запусти режим разработки, выполнив команду `npm start`.
+8. Перейди в браузере по адресу [http://localhost:3000](http://localhost:3000).
+   Эта страница будет автоматически перезагружаться после сохранения изменений в
+   файлах проекта.
 
 ## Деплой
 
