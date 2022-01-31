@@ -16,8 +16,8 @@
   GitHub-репозиторием
   - Если проект был склонирован, то по
     [этой инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url)
-  - Если проект был скачан как архив, то инициализируй Git коммандой `git init`
-    и дальше по
+  - Если проект был скачан архивом, то инициализируй Git командой `git init` и
+    дальше по
     [этой инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#adding-a-remote-repository)
 - Установи базовые зависимости проекта командой `npm install`
 - Запусти режим разработки, выполнив команду `npm start`
