@@ -2,7 +2,7 @@
 
 Этот проект был создан при помощи
 [Create React App](https://github.com/facebook/create-react-app). Для знакомства
-и настройки дополнительных возможностей, обратись к
+и настройки дополнительных возможностей обратись к
 [документации](https://facebook.github.io/create-react-app/docs/getting-started).
 
 ## Подготовка нового проекта
@@ -12,7 +12,13 @@
 - Склонируй этот репозиторий или скачай его как архив
 - Измени имя папки с `react-homework-template` на имя своего проекта
 - Создай новый пустой репозиторий на GitHub
-- Свяжи свой проект с GitHub-репозиторием
+- Открой проект в VSCode, запусти терминал и свяжи свой проект с
+  GitHub-репозиторием
+  - Если проект был склонирован, то по
+    [этой инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url)
+  - Если проект был скачан как архив, то инициализируй Git коммандой `git init`
+    и дальше по
+    [этой инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#adding-a-remote-repository)
 - Установи базовые зависимости проекта командой `npm install`
 - Запусти режим разработки, выполнив команду `npm start`
 - Перейди в браузере по адресу [http://localhost:3000](http://localhost:3000).
