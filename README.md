@@ -38,7 +38,7 @@
 `Pages`) и убедиться что продакшн версии файлов раздаются из папки `/root` ветки
 `gh-pages`.
 
-![GitHub Pages settings](./repo-settings.png)
+![GitHub Pages settings](./assets/repo-settings.png)
 
 ### Статус деплоя
 
@@ -51,7 +51,7 @@
 Более детальную информацию о статусе можно посмотреть кликнув по иконке, и в
 выпадающем окне перейти по ссылке `Details`.
 
-![Deployment status](./status.png)
+![Deployment status](./assets/status.png)
 
 ### Живая страница
 
