@@ -28,15 +28,15 @@
 деплоиться на GitHub Pages, в ветку `gh-pages`, каждый раз когда обновляется
 ветка `main`. Например, после прямого пуша или принятого пул-реквеста. Для этого
 необходимо в файле `package.json` отредактировать поле `homepage`, заменив
-`your_username` и `your_repo_name` на свои.
+`your_username` и `your_repo_name` на свои, и отправить изменения на GitHub.
 
 ```json
 "homepage": "https://your_username.github.io/your_repo_name/"
 ```
 
-На всякий случай стоит зайти на GitHub в настройки репозитория (`Settings` >
-`Pages`) и убедиться что продакшн версии файлов раздаются из папки `/root` ветки
-`gh-pages`.
+Далее необходимо зайти в настройки GitHub-репозитория (`Settings` > `Pages`) и
+выставить раздачу продакшн версии файлов из папки `/root` ветки `gh-pages`, если
+это небыло сделано автоматически.
 
 ![GitHub Pages settings](./assets/repo-settings.png)
 
