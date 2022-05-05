@@ -25,15 +25,13 @@ zapoznania się z ustawieniami dodatkowych opcji
 
 ## Deployment
 
-Для настройки деплоя проекта необходимо выполнить несколько дополнительных шагов
-по настройке твоего репозитория. Зайди во вкладку `Settings` и в подсекции
-`Actions` выбери выбери пункт `General`.
+Aby skonfigurować wdrożenie projektu, należy wykonać kilka dodatkowych kroków
+w celu skonfigurowania repozytorium. Przejdź do zakładki `Settings` i w podsekcji
+`Actions` wybierz wybierz pozycję `General`.
 
 ![GitHub actions settings](./assets/actions-config-step-1.png)
 
-Пролистай страницу до последней секции, в которой выбери опции как на следующем
-изображении и нажми `Save`. Без этих настроек у сборки будет недостаточно прав
-для автоматизации процесса деплоя.
+Przewiń stronę w dół do ostatniej sekcji, a następnie wybierz opcje tak jak pokazano poniżej i kliknij `Save`. Bez tych ustawień zespół nie będzie miał uprawnień, aby zautomatyzować proces wdrażania.
 
 ![GitHub actions settings](./assets/actions-config-step-2.png)
 
