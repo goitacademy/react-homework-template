@@ -1,0 +1,22 @@
+.statistics {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 500px;
+  gap: 10px;
+  border: thick double #32a1ce;
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+
+.title {
+  text-transform: uppercase;
+  color: gainsboro;
+  margin-bottom: 20px;
+}
+
+.statList{
+    display: flex;
+}
