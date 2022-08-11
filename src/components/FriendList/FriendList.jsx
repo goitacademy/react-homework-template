@@ -11,7 +11,6 @@ const FriendList = ({ friends }) => {
       isOnline={item.isOnline}
     />
   ));
-  console.log(friends);
   return (
     <>
       <ul className={s.friendList}>{element}</ul>
