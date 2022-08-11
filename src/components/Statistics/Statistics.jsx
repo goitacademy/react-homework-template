@@ -2,7 +2,6 @@ import s from './Statistics.module.css';
 // import StatisticsItems from './StatisticsItems';
 
 const Statistics = props => {
-  
   function getRandomHexColor() {
     return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
   }
@@ -17,14 +16,18 @@ const Statistics = props => {
       <span className={s.percentage}> {item.percentage}%</span>
     </li>
   ));
+  
+
+// 1 вариант решения через props
 
   // const { stats } = props;
   // const element = stats.map(item => (
   //   <StatisticsItems key={item.id} label={item.label} />
   // ));
 
-  // console.log(stats);
-  // console.log(title);
+
+  // 2 вариант решения через деструктаризацию и доп функцию StatisticsItems
+
 
   return (
     <>
