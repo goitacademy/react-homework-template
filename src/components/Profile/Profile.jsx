@@ -2,6 +2,10 @@ import s from './Profile.module.css';
 import PropTypes from 'prop-types';
 
 const Profile = ({ user }) => {
+  function getRandomHexColor() {
+    return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+  }
+
   return (
     <>
       <div className={s.profile}>
@@ -12,7 +16,10 @@ const Profile = ({ user }) => {
           <p className={s.location}>{user.location}</p>
         </div>
 
-        <ul className={s.stats}>
+        <ul
+          className={s.stats}
+          style={{ backgroundColor: getRandomHexColor() }}
+        >
           <li>
             <span className={s.label}>Followers</span>
             <span className={s.quantity}> {user.stats.followers}</span>
