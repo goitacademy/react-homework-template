@@ -6,7 +6,6 @@ const Statistics = props => {
   function getRandomHexColor() {
     return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
   }
-  console.log(props.stats);
   const element = props.stats.map(item => (
     <li
       className={s.item}
@@ -38,13 +37,14 @@ const Statistics = props => {
 };
 
 Statistics.propTypes = {
-  props: PropTypes.shape({
-    stats: PropTypes.shape({
+  title: PropTypes.string,
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
       id: PropTypes.string.isRequired,
       label: PropTypes.string.isRequired,
       percentage: PropTypes.number.isRequired,
-    }),
-  }),
+    })
+  ),
 };
 
 export default Statistics;
