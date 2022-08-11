@@ -2,9 +2,9 @@ import s from './Statistics.module.css';
 
 const Statistics = props => {
   const element = props.stats.map(item => (
-    <li key={item.id} className={s.item}>
+    <li className={s.item} key={item.id} >
       <span className={s.label}> {item.label}</span>
-      <span className={s.percentage}> {item.percentage}</span>
+      <span className={s.percentage}> {item.percentage}%</span>
     </li>
   ));
 
