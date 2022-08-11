@@ -43,12 +43,14 @@ ul {
 }
 
 .stats {
+  background-color: slategrey;
   display: flex;
+  font-weight: 700;
   justify-content: center;
   min-width: 80%;
   gap: 30px;
   padding: 25px 10px;
-  border: thick solid #8f2712;
+  border: thick solid #d1d0d0;
   font-size: 17px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
