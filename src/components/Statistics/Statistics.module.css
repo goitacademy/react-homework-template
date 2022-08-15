@@ -1,0 +1,41 @@
+.statistics {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 500px;
+  gap: 10px;
+  border: thick double #32a1ce;
+  background-color: #fff;
+}
+
+.title {
+  text-transform: uppercase;
+  color: gainsboro;
+}
+
+.statList {
+  border: solid #6132ce;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 310px;
+}
+.label {
+  font-size: 22px;
+}
+
+.percentage {
+  font-size: 17px;
+}
+
+.item {
+  background-color: rgb(194, 22, 22);
+  width: 100%;
+  text-align: center;
+  padding: 3px 0;
+  border-right: solid #6132ce;
+}
+.item:first-child {
+  border-right: none;
+}

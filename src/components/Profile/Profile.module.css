@@ -1,0 +1,56 @@
+li {
+  list-style-type: none;
+}
+ul {
+  padding: 0;
+}
+
+.profile {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 500px;
+  gap: 40px;
+  margin-top: 30px;
+  border: thick double #32a1ce;
+  background-color: #fff;
+}
+
+.avatar {
+  width: 160px;
+  background-color: rgb(6, 6, 6);
+  border-radius: 50%;
+}
+
+.description {
+  margin: 0 auto;
+}
+.name {
+  font-size: 25px;
+  color: black;
+  font-weight: 700;
+}
+
+.tag {
+  text-align: center;
+}
+.tag,
+.location {
+  color: grey;
+  font-size: 19px;
+}
+
+.stats {
+  background-color: slategrey;
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  min-width: 80%;
+  gap: 30px;
+  padding: 25px 10px;
+  border: thick solid #d1d0d0;
+  font-size: 17px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
