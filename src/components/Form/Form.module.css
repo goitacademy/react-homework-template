@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  border: 1px solid #000;
+  gap: 10px;
+  width: 500px;
+}
+
+.formTextfield {
+  border: 1px solid #ababab;
+}
+
+.formInput {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: 5px;
+}
+
+.formBtn {
+  padding: 3px;
+  border-radius: 5px;
+  border: 1px solid #ababab;
+  background-color: #fff;
+}
