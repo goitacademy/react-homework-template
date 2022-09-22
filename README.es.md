@@ -1,73 +1,72 @@
 # React homework template
 
-Этот проект был создан при помощи
-[Create React App](https://github.com/facebook/create-react-app). Для знакомства
-и настройки дополнительных возможностей
-[обратись к документации](https://facebook.github.io/create-react-app/docs/getting-started).
+Este proyecto fue creado con la ayuda de
+[Create React App](https://github.com/facebook/create-react-app). [Consulte la documentación](https://facebook.github.io/create-react-app/docs/getting-started) para familiarizarse con las funciones opcionales y configurarlas.
 
-## Подготовка нового проекта
+## Preparación de un nuevo proyecto
 
-1. Убедись что на компьютере установлена LTS-версия Node.js.
-   [Скачай и установи](https://nodejs.org/en/) её если необходимо.
-2. Клонируй этот репозиторий.
-3. Измени имя папки с `react-homework-template` на имя своего проекта.
-4. Создай новый пустой репозиторий на GitHub.
-5. Открой проект в VSCode, запусти терминал и свяжи проект с GitHub-репозиторием
-   [по инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url).
-6. Установи базовые зависимости проекта командой `npm install`.
-7. Запусти режим разработки, выполнив команду `npm start`.
-8. Перейди в браузере по адресу [http://localhost:3000](http://localhost:3000).
-   Эта страница будет автоматически перезагружаться после сохранения изменений в
-   файлах проекта.
+1. Asegúrate de que la versión LTS de Node.js está instalada en tu computador.
+   [Descárguela e instálela](https://nodejs.org/en/) de ser necesario.
+2. Clona este repositorio.
+3. Cambia el nombre de la carpeta `react-homework-template` por el nombre de tu proyecto.
+4. Crea un nuevo repositorio vacío en GitHub.
+5. Abre el proyecto en VSCode, ejecuta el terminal y enlaza el proyecto con el repositorio de GitHub
+   [como se indica](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url).
+6. Instala las dependencias base del proyecto con el comando `npm install`.
+7. Inicia el modo de desarrollo ejecutando el comando `npm start`.
+8. En tu navegador, ve a la dirección [http://localhost:3000](http://localhost:3000).
+   Esta página se recargará automáticamente después de guardar los cambios en los archivos del proyecto.
 
-## Деплой
+## Implementación
 
-Продакшн версия проекта будет автоматически проходить линтинг, собираться и
-деплоиться на GitHub Pages, в ветку `gh-pages`, каждый раз когда обновляется
-ветка `main`. Например, после прямого пуша или принятого пул-реквеста. Для этого
-необходимо в файле `package.json` отредактировать поле `homepage`, заменив
-`your_username` и `your_repo_name` на свои, и отправить изменения на GitHub.
+La versión de producción del proyecto se verificará, compilará y desplegará 
+automáticamente en GitHub Pages, en la rama `gh-pages`, cada vez que se actualice
+la rama `main`. Por ejemplo, después de un Push directo o de una Pool-request
+aceptada. Para ello, edita el campo `homepage` del archivo `package.json`, 
+sustituyendo `your_username` y `your_repo_name` por los tuyos propios, y envía 
+los cambios a GitHub.
 
 ```json
 "homepage": "https://your_username.github.io/your_repo_name/"
 ```
 
-Далее необходимо зайти в настройки GitHub-репозитория (`Settings` > `Pages`) и
-выставить раздачу продакшн версии файлов из папки `/root` ветки `gh-pages`, если
-это небыло сделано автоматически.
+A continuación, ve a la configuración del repositorio de GitHub (`Settings` > 
+`Pages`) y selecciona distribuir la versión de producción de los archivos desde la
+carpeta `/root` de la rama `gh-pages`, si no se ha hecho automáticamente.
 
 ![GitHub Pages settings](./assets/repo-settings.png)
 
-### Статус деплоя
+### Estado de la implantación
 
-Статус деплоя крайнего коммита отображается иконкой возле его идентификатора.
+El estado del último commit se indica con un icono junto al ID del commit.
 
-- **Желтый цвет** - выполняется сборка и деплой проекта.
-- **Зеленый цвет** - деплой завершился успешно.
-- **Красный цвет** - во время линтинга, сборки или деплоя произошла ошибка.
+- **Color amarillo** - el proyecto está compilado e implementado.
+- **Color verde** - La implementación se completó con éxito.
+- **Color rojo** - Se ha producido un error durante la verificación, la compilación o la implementación
 
-Более детальную информацию о статусе можно посмотреть кликнув по иконке, и в
-выпадающем окне перейти по ссылке `Details`.
+Se puede ver información de estado más detallada haciendo clic en el icono y 
+en la ventana desplegable del enlace `Detalles`.
 
 ![Deployment status](./assets/status.png)
 
-### Живая страница
+### Página activa
 
-Через какое-то время, обычно пару минут, живую страницу можно будет посмотреть
-по адресу указанному в отредактированном свойстве `homepage`. Например, вот
-ссылка на живую версию для этого репозитория
+Después de un tiempo, normalmente un par de minutos, la página real se puede ver
+en la dirección especificada en la propiedad `homepage`. Por ejemplo, aquí está 
+el enlace a la versión activa de este repositorio
 [https://goitacademy.github.io/react-homework-template](https://goitacademy.github.io/react-homework-template).
 
-Если открывается пустая страница, убедись что во вкладке `Console` нет ошибок
-связанных с неправильными путями к CSS и JS файлам проекта (**404**). Скорее
-всего у тебя неправильное значение свойства `homepage` в файле `package.json`.
+Si se abre una página en blanco, asegúrate de que no haya errores en la pestaña
+`Console` relacionados con rutas incorrectas de archivos CSS y JS del proyecto
+(**404**). Probablemente tienes un valor incorrecto para la propiedad `homepage`
+en el archivo `package.json`.
 
-### Маршрутизация
+### Enrutamiento
 
-Если приложение использует библиотеку `react-router-dom` для маршрутизации,
-необходимо дополнительно настроить компонент `<BrowserRouter>`, передав в пропе
-`basename` точное название твоего репозитория. Слеши в начале и конце строки
-обязательны.
+Si la aplicación utiliza la librería `react-router-dom` para el enrutamiento,
+el componente `<BrowserRouter>` debe ser configurado adicionalmente pasando en
+la prop `basename`, el nombre exacto de tu repositorio. Las barras inclinadas 
+al principio y al final de la cadena son obligatorias.
 
 ```jsx
 <BrowserRouter basename="/your_repo_name/">
@@ -75,14 +74,14 @@
 </BrowserRouter>
 ```
 
-## Как это работает
+## ¿Cómo funciona?
 
 ![How it works](./assets/how-it-works.png)
 
-1. После каждого пуша в ветку `main` GitHub-репозитория, запускается специальный
-   скрипт (GitHub Action) из файла `.github/workflows/deploy.yml`.
-2. Все файлы репозитория копируются на сервер, где проект инициализируется и
-   проходит линтинг и сборку перед деплоем.
-3. Если все шаги прошли успешно, собранная продакшн версия файлов проекта
-   отправляется в ветку `gh-pages`. В противном случае, в логе выполнения
-   скрипта будет указано в чем проблема.
+1. Después de cada push a la rama `main` del repositorio GitHub, se ejecuta un 
+   script especial (GitHub Action) del archivo `.github/workflows/deploy.yml`.
+2. Todos los archivos del repositorio se copian en el servidor, donde el 
+   proyecto se inicializa, se verifica y se compila antes de ser implementado.
+3. Si todos los pasos tienen éxito, la versión de producción compilada de los
+   archivos del proyecto se envía a la rama `gh-pages`. De lo contrario, el 
+   registro de ejecución del script indicará cuál es el problema.
