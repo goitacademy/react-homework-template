@@ -51,8 +51,6 @@ and in the drop-down window, follow the link `Details`.
 
 ![Deployment status](./assets/status.png)
 
-### Живая страница
-
 ### Live page
 After some time, usually a couple of minutes, the live page can be viewed at the address 
 specified in the edited `homepage` property. For example, here is a link to a live version for this repository
