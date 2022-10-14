@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Smoked salmon burger",
+    "time": "20",
+    "servings": 6,
+    "calories": 210,
+    "difficulty": "easy",
+    "image": "https://assets.bonappetit.com/photos/62cc4eca787a907e535e8e7f/1:1/w_2580%2Cc_limit/0711-black-bean-burger-lede.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Tomatoes With Creamy Feta",
+    "time": "15",
+    "servings": 3,
+    "calories": 600,
+    "difficulty": "easy",
+    "image": "https://assets.bonappetit.com/photos/62b4926736e0c90647da6b71/1:1/w_2580%2Cc_limit/0623-diana-yen-tomato-recipe-lede.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Spicy potato salad",
+    "time": "30",
+    "servings": 2,
+    "calories": 320,
+    "difficulty": "medium",
+    "image": "https://assets.bonappetit.com/photos/62bf35ae872a6cfbb260f286/1:1/w_2580%2Cc_limit/0701-tj-recipe-potato-v2.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Chicken Biryani",
+    "time": "40",
+    "servings": 4,
+    "calories": 700,
+    "difficulty": "hard",
+    "image": "https://assets.bonappetit.com/photos/5db1b689823b960008d8468d/1:1/w_2580%2Cc_limit/Chicken-Biryani-Lede-NEW.jpg"
+  }
+]
