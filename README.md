@@ -1,5 +1,5 @@
 **Read in other languages: [Українська](README.md), [Polska](README.pl.md),
-[English](README.en.md), [Spanish](README.es.md), [Русский](README.ru.md).**
+[English](README.en.md), [Española](README.es.md), [Русский](README.ru.md).**
 
 # React homework template
 
