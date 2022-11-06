@@ -63,7 +63,7 @@ la ventana desplegable del enlace `Detalles`.
 Después de un tiempo, normalmente un par de minutos, la página real se puede ver
 en la dirección especificada en la propiedad `homepage`. Por ejemplo, aquí está
 el enlace a la versión activa de este repositorio
-[https://stas-yushkov.github.io/react-homework-template](https://stas-yushkov.github.io/react-homework-template).
+[https://goitacademy.github.io/react-homework-template](https://goitacademy.github.io/react-homework-template).
 
 Si se abre una página en blanco, asegúrate de que no haya errores en la pestaña
 `Console` relacionados con rutas incorrectas de archivos CSS y JS del proyecto

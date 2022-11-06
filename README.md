@@ -61,7 +61,7 @@
 Через деякий час, зазвичай кілька хвилин, живу сторінку можна буде подивитися за
 адресою вказаною у відредагованій властивості `homepage`. Наприклад, ось
 посилання на живу версію для цього репозиторію
-[https://stas-yushkov.github.io/react-homework-template](https://stas-yushkov.github.io/react-homework-template).
+[https://goitacademy.github.io/react-homework-template](https://goitacademy.github.io/react-homework-template).
 
 Якщо відкриється порожня сторінка, переконайтеся, що у вкладці `Console` немає
 помилок пов'язаних з неправильними шляхами до CSS та JS файлів проекту
