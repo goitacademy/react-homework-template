@@ -2,7 +2,7 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://VladosSid.github.io/goit-react-hw-01-components/",
+  "homepage": "https://github.com/Chillbeffore/-goit-react-hw-01-components.git",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
