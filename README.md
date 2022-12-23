@@ -69,11 +69,11 @@
 
 Если приложение использует библиотеку `react-router-dom` для маршрутизации,
 необходимо дополнительно настроить компонент `<BrowserRouter>`, передав в пропе
-`basename` точное название твоего репозитория. Слеши в начале и конце строки
-обязательны.
+`basename` точное название твоего репозитория. Слеш в начале строки
+обязателен.
 
 ```jsx
-<BrowserRouter basename="/your_repo_name/">
+<BrowserRouter basename="/your_repo_name">
   <App />
 </BrowserRouter>
 ```
