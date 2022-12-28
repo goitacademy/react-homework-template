@@ -7,19 +7,32 @@ Ten projekt został stworzony przy pomocy
 zapoznania się z ustawieniami dodatkowych opcji
 [zobacz dokumentację](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Przygotowanie nowego projektu
+## Создание репозитория по шаблону
+
+Используй этот репозиторий организации GoIT как шаблон для создания репозитория
+своего проекта. Для этого нажми на кнопку `«Use this template»` и выбери опцию
+`«Create a new repository»`, как показано на изображении.
+
+![Creating repo from a template step 1](./assets/template-step-1.png)
+
+На следующем шаге откроется страница создания нового репозитория. Заполни поле
+его имени, убедись что репозиторий публичный, после чего нажми кнопку
+`«Create repository from template»`.
+
+![Creating repo from a template step 2](./assets/template-step-2.png)
+
+Теперь у тебя есть личный репозиторий проекта, со структурой файлов и папок
+репозитория-шаблона. Далее работай с ним как с любым другим личным репозиторием,
+клонируй его себе на компьютер, пиши код, делай коммиты и отправляй их на
+GitHub.
+
+## Подготовка к работе
 
 1. Upewnij się, że na komputerze zainstalowana jest wersja LTS Node.js.
    [Ściągnij i zainstaluj](https://nodejs.org/en/), jeżeli trzeba.
-2. Sklonuj to repozytorium.
-3. Zmień nazwę folderu z `react-homework-template` na nazwę swojego projektu.
-4. Utwórz nowe, puste repozytorium na GitHub.
-5. Otwórz projekt w VSCode, włącz terminal i połącz projekt z repozytorium
-   GitHub
-   [zgodnie z instrukcją](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url).
-6. Utwórz bazowe zależności projektu przy pomocy polecenia `npm install`.
-7. Włącz tryb pracy, wykonując polecenie `npm start`.
-8. Przejdź w przeglądarce pod adres
+2. Utwórz bazowe zależności projektu przy pomocy polecenia `npm install`.
+3. Włącz tryb pracy, wykonując polecenie `npm start`.
+4. Przejdź w przeglądarce pod adres
    [http://localhost:3000](http://localhost:3000). Ta strona będzie
    automatycznie przeładowywać się po zapisaniu zmian w plikach projektu.
 

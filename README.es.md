@@ -5,20 +5,32 @@ Este proyecto fue creado con la ayuda de
 [Consulte la documentación](https://facebook.github.io/create-react-app/docs/getting-started)
 para familiarizarse con las funciones opcionales y configurarlas.
 
-## Preparación de un nuevo proyecto
+## Создание репозитория по шаблону
+
+Используй этот репозиторий организации GoIT как шаблон для создания репозитория
+своего проекта. Для этого нажми на кнопку `«Use this template»` и выбери опцию
+`«Create a new repository»`, как показано на изображении.
+
+![Creating repo from a template step 1](./assets/template-step-1.png)
+
+На следующем шаге откроется страница создания нового репозитория. Заполни поле
+его имени, убедись что репозиторий публичный, после чего нажми кнопку
+`«Create repository from template»`.
+
+![Creating repo from a template step 2](./assets/template-step-2.png)
+
+Теперь у тебя есть личный репозиторий проекта, со структурой файлов и папок
+репозитория-шаблона. Далее работай с ним как с любым другим личным репозиторием,
+клонируй его себе на компьютер, пиши код, делай коммиты и отправляй их на
+GitHub.
+
+## Подготовка к работе
 
 1. Asegúrate de que la versión LTS de Node.js está instalada en tu computador.
    [Descárguela e instálela](https://nodejs.org/en/) de ser necesario.
-2. Clona este repositorio.
-3. Cambia el nombre de la carpeta `react-homework-template` por el nombre de tu
-   proyecto.
-4. Crea un nuevo repositorio vacío en GitHub.
-5. Abre el proyecto en VSCode, ejecuta el terminal y enlaza el proyecto con el
-   repositorio de GitHub
-   [como se indica](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url).
-6. Instala las dependencias base del proyecto con el comando `npm install`.
-7. Inicia el modo de desarrollo ejecutando el comando `npm start`.
-8. En tu navegador, ve a la dirección
+2. Instala las dependencias base del proyecto con el comando `npm install`.
+3. Inicia el modo de desarrollo ejecutando el comando `npm start`.
+4. En tu navegador, ve a la dirección
    [http://localhost:3000](http://localhost:3000). Esta página se recargará
    automáticamente después de guardar los cambios en los archivos del proyecto.
 
