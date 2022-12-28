@@ -55,7 +55,7 @@ identyfikatora.
 Bardziej szczegółowe informacje o statusie można zobaczyć po kliknięciu na
 ikonkę i przejściu w wyskakującym oknie do odnośnika `Details`.
 
-![Deployment status](./assets/status.png)
+![Deployment status](./assets/deploy-status.png)
 
 ### Deployowana strona
 
