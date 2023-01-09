@@ -9,15 +9,34 @@ zapoznania się z ustawieniami dodatkowych opcji
 
 ## Utworzenie repozytorium zgodnie z szablonem
 
-Wykorzystaj to repozytorium organizacji GoIT jako szablon do utworzenia repozytorium własnego projektu. W tym celu kliknij na przycisk `"Use this template"` i wybierz opcję `"Create a new repository"`, jak pokazano na rysunku.
+Wykorzystaj to repozytorium organizacji GoIT jako szablon do utworzenia
+repozytorium własnego projektu. W tym celu kliknij na przycisk
+`"Use this template"` i wybierz opcję `"Create a new repository"`, jak pokazano
+na rysunku.
 
 ![Creating repo from a template step 1](./assets/template-step-1.png)
 
-W następnym kroku otworzy się strona utworzenia nowego repozytorium. Wypełnij pole nazwy i upewnij się, że repozytorium jest publiczne, a następnie kliknij na przycisk `"Create repository from template"`.
+W następnym kroku otworzy się strona utworzenia nowego repozytorium. Wypełnij
+pole nazwy i upewnij się, że repozytorium jest publiczne, a następnie kliknij na
+przycisk `"Create repository from template"`.
 
 ![Creating repo from a template step 2](./assets/template-step-2.png)
 
-Teraz masz własne repozytorium projektu, ze strukturą folderów i plików jak w szablonie. Pracuj z nim jak z innymi repozytoriami, klonuj je na swój komputer, pisz kod, rób commity i wysyłaj na GitHub.
+После того как репозиторий будет создан, необходимо перейти в настройки
+созданного репозитория на вкладку `Settings` > `Actions` > `General` как
+показано на изображении.
+
+![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
+
+Проскролив страницу до самого конца, в секции `«Workflow permissions»` выбери
+опцию `«Read and write permissions»` и поставь галочку в чекбоксе. Это
+необходимо для автоматизации процесса деплоя проекта.
+
+![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)
+
+Teraz masz własne repozytorium projektu, ze strukturą folderów i plików jak w
+szablonie. Pracuj z nim jak z innymi repozytoriami, klonuj je na swój komputer,
+pisz kod, rób commity i wysyłaj na GitHub.
 
 ## Przygotowanie do pracy
 
