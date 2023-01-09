@@ -4,7 +4,7 @@
 
 Ten projekt został stworzony przy pomocy
 [Create React App](https://github.com/facebook/create-react-app). W celu
-zapoznania się z ustawieniami dodatkowych opcji
+zapoznania się z konfiguracją dodatkowych opcji
 [zobacz dokumentację](https://facebook.github.io/create-react-app/docs/getting-started).
 
 ## Utworzenie repozytorium zgodnie z szablonem
@@ -22,9 +22,7 @@ przycisk `"Create repository from template"`.
 
 ![Creating repo from a template step 2](./assets/template-step-2.png)
 
-После того как репозиторий будет создан, необходимо перейти в настройки
-созданного репозитория на вкладку `Settings` > `Actions` > `General` как
-показано на изображении.
+Po utworzeniu repozytorium, należy przejść do jego ustawień w zakładce `Settings` > `Actions` > `General`, jak pokazano na rysunku.
 
 ![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
 
