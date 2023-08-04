@@ -2,10 +2,9 @@
 
 # React homework template
 
-Этот проект был создан при помощи
-[Create React App](https://github.com/facebook/create-react-app). Для знакомства
-и настройки дополнительных возможностей
-[обратись к документации](https://facebook.github.io/create-react-app/docs/getting-started).
+Этот проект был создан при помощи [Vite](https://vitejs.dev). Для знакомства и
+настройки дополнительных возможностей
+[обратись к документации](https://vitejs.dev/guide/).
 
 ## Подготовка нового проекта
 
@@ -17,10 +16,10 @@
 5. Открой проект в VSCode, запусти терминал и свяжи проект с GitHub-репозиторием
    [по инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url).
 6. Установи базовые зависимости проекта командой `npm install`.
-7. Запусти режим разработки, выполнив команду `npm start`.
-8. Перейди в браузере по адресу [http://localhost:3000](http://localhost:3000).
-   Эта страница будет автоматически перезагружаться после сохранения изменений в
-   файлах проекта.
+7. Запусти режим разработки, выполнив команду `npm start dev`.
+8. Перейди в браузере по адресу [http://localhost:5173](http://localhost:5173)
+   или [http://127.0.0.1:5173](http://127.0.0.1:5173). Эта страница будет
+   автоматически перезагружаться после сохранения изменений в файлах проекта.
 
 ## Деплой
 
@@ -34,11 +33,20 @@
 "homepage": "https://your_username.github.io/your_repo_name/"
 ```
 
+Добавить запись в файле vite.config.json строку `base: '/your_repo_name/'`,
+
+```js
+export default defineConfig({
+  plugins: [react()],
+  base: '/your_repo_name/',
+});
+```
+
 Далее необходимо зайти в настройки GitHub-репозитория (`Settings` > `Pages`) и
 выставить раздачу продакшн версии файлов из папки `/root` ветки `gh-pages`, если
 это небыло сделано автоматически.
 
-![GitHub Pages settings](./assets/repo-settings.png)
+![GitHub Pages settings](src/assets/readme-images/repo-settings.png)
 
 ### Статус деплоя
 
@@ -51,7 +59,7 @@
 Более детальную информацию о статусе можно посмотреть кликнув по иконке, и в
 выпадающем окне перейти по ссылке `Details`.
 
-![Deployment status](./assets/status.png)
+![Deployment status](src/assets/readme-images//status.png)
 
 ### Живая страница
 
@@ -66,20 +74,35 @@
 
 ### Маршрутизация
 
-Если приложение использует библиотеку `react-router-dom` для маршрутизации,
-необходимо дополнительно настроить компонент `<BrowserRouter>`, передав в пропе
-`basename` точное название твоего репозитория. Слеши в начале и конце строки
-обязательны.
+Если приложение использует библиотеку `react-router-dom-v6` для маршрутизации,
+необходимо дополнительно настроить компонент `<RouterProvider>`, передав в пропе
+`router` объект соответствующий объект, созданный при помощи `createHashRouter`,
+т.к. GitHub не потдерживает `BrowserRouter`.
 
 ```jsx
-<BrowserRouter basename="/your_repo_name/">
-  <App />
-</BrowserRouter>
+import { createHashRouter, RouterProvider } from 'react-router-dom';
+
+const router = createHashRouter([
+  {
+    path: '/',
+    element: <App />,
+  },
+  {
+    path: '/other-path',
+    element: <OtherComponent />,
+  },
+]);
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);
 ```
 
 ## Как это работает
 
-![How it works](./assets/how-it-works.png)
+![How it works](src/assets/readme-images//how-it-works.png)
 
 1. После каждого пуша в ветку `main` GitHub-репозитория, запускается специальный
    скрипт (GitHub Action) из файла `.github/workflows/deploy.yml`.
@@ -88,3 +111,24 @@
 3. Если все шаги прошли успешно, собранная продакшн версия файлов проекта
    отправляется в ветку `gh-pages`. В противном случае, в логе выполнения
    скрипта будет указано в чем проблема.
+
+## ENV Переменные
+
+В файле `.env` создаем переменную с префиксом `VITE_REACT_APP_variable_name`
+после чего, в компоненте можно получить это значение при помощи
+`import.meta.env.variable_name`.
+
+Пример:
+
+```shell
+.env file
+
+VITE_REACT_APP_EXAMPLE=env_example
+
+```
+
+```jsx
+component file
+
+import.meta.env.VITE_REACT_APP_EXAMPLE;
+```
