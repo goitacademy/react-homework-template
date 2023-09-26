@@ -36,7 +36,7 @@ GitHub.
 ## Pregătirea pentru muncă
 
 1. Asigură-te că ai versiunea LTS a Node.js instalată pe computerul personal.
-   [Descarc-o și instaleaz-o](https://nodejs.org/en/) dacă este necesar.
+   [Descarcă și instalează](https://nodejs.org/en/) dacă este necesar.
 2. Instalează dependențele de bază ale proiectului cu comanda `npm install`.
 3. Pornește modul de dezvoltare utilizând comanda `npm start`.
 4. Accesează [http://localhost:3000](http://localhost:3000) în browser-ul tău.
@@ -44,14 +44,14 @@ GitHub.
 
 ## Deploy
 
-Versiunea de producție a proiectului va trece automat prin procesul de linting, va fi contruită și implementată pe GitHub Pages, în ramura `gh-pages`, de fiecare dată când ramura `main` este actualizată. De exemplu, după un push direct sau o cerere de pull-request acceptată. 
+Versiunea de producție a proiectului va trece automat prin procesul de linting, va fi asamblată și implementată pe GitHub Pages, în ramura `gh-pages`, de fiecare dată când ramura `main` este actualizată. De exemplu, după un push direct sau o cerere de pull-request acceptată. 
 
-Pentru a face acest lucru, trebuie să editeezi câmpul "homepage" din fișierul package.json, înlocuind "your_username" și "your_repo_name" cu cu detaliile tale, apoi să trimiți acetse modificări pe GitHub.
+Pentru a face acest lucru, trebuie să editeezi câmpul "homepage" din fișierul package.json, înlocuind "your_username" și "your_repo_name" cu detaliile tale, apoi să trimiți aceste modificări pe GitHub.
 
 json
 "homepage": "https://your_username.github.io/your_repo_name/"
 
-În continuare, mergi la setările repository-ului GitHub (`Settings` > `Pages`) și setează distrubuirea versiunii de producție a fișierelor în folderul `/root` al ramurii `gh-pages`, dacă acest lucru nu a fost făcut în mod automat.
+În continuare, mergi la setările repository-ului GitHub (`Settings` > `Pages`) și setează distribuirea versiunii de producție a fișierelor în folderul `/root` al ramurii `gh-pages`, dacă acest lucru nu a fost făcut în mod automat.
 
 ![GitHub Pages settings](./assets/repo-settings.png)
 
