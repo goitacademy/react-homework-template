@@ -5,7 +5,7 @@ Acest proiect a fost creat cu ajutorul
 și configurarea de funcții suplimentare
 [consultați documentația](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Crearea unui repository dintr-un model
+## Crearea unui repository în baza modelului
 
 Utilizează acest repository al organizației GoIT ca model pentru crearea unui repository
 pentru proiectul tău. Pentru a face acest lucru, dă click pe "Use this template" și selectează opțiunea
